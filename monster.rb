@@ -1,7 +1,7 @@
 class Monster < Character
 
   def appear(monster)
-    puts "#{monster.name}があらわれた！"
+    puts "#{@name}があらわれた！"
   end
 
   def attack(brave)
